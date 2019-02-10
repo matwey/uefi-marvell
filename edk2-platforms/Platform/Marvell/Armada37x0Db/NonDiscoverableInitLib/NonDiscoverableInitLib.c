@@ -20,16 +20,6 @@
 
 #include <Protocol/NonDiscoverableDevice.h>
 
-STATIC
-EFI_STATUS
-EFIAPI
-Armada37x0DbInitXhciVbus (
-  IN  NON_DISCOVERABLE_DEVICE       *This
-  )
-{
-  return EFI_SUCCESS;
-}
-
 NON_DISCOVERABLE_DEVICE_INIT
 EFIAPI
 GetInitializerForType (

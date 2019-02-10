@@ -48,4 +48,9 @@
 !include Silicon/Marvell/Armada3k/Armada3k.dsc.inc
 
 [LibraryClasses.common]
+  ArmadaBoardDescLib|Platform/Marvell/Armada37x0Db/Armada37x0DbBoardDescLib/Armada37x0DbBoardDescLib.inf
   NonDiscoverableInitLib|Platform/Marvell/Armada37x0Db/NonDiscoverableInitLib/NonDiscoverableInitLib.inf
+
+[PcdsFixedAtBuild.common]
+  #PciEmulation
+  gMarvellTokenSpaceGuid.PcdPciESdhci|{ 0x0, 0x1 }

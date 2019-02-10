@@ -32,6 +32,7 @@
 #SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 [LibraryClasses.common]
+  ArmadaSoCDescLib|Silicon/Marvell/Armada3k/Library/Armada3kSoCDescLib/Armada3kSoCDescLib.inf
   ArmPlatformLib|Silicon/Marvell/Armada3k/Library/Armada3kLib/Armada3kLib.inf
 
   DebugLib|MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort.inf
@@ -357,7 +358,7 @@
   ArmPkg/Drivers/TimerDxe/TimerDxe.inf
 
   # Platform Initialization
-
+  Silicon/Marvell/Drivers/BoardDesc/MvBoardDescDxe.inf
 
   # Platform drivers
   MdeModulePkg/Core/RuntimeDxe/RuntimeDxe.inf
